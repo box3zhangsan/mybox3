@@ -26,7 +26,7 @@ world.onChat(async ({ entity, message }) => {
                     world.say(e)
                 }
             }
-        }
+        };
             if (message == '/tag') { entity.player.directMessage(`${entity.hasTag('in')}`)}//pornstar
             if (message == '/help') { entity.player.directMessage('亲爱的创作人员你好！特殊功能包含变大、变小、还原大小、飞行、解除飞行、隐身、现身、隐藏名字、显示名字、幽灵、解除幽灵、发光、还原发光、反光、还原反光、变红色、变蓝色、变绿色、变紫色、变黄色、变浅蓝色、还原颜色、全部还原、禁言(例如:禁言+禁言者名字)、解除禁言(例如:解除禁言+被禁言者名字、加速、减速)、管理室密码。') }//pornstar
             if (message == '/变大') { entity.plsayer.scale = 6; world.say(entity.player.name + '变大了') }
